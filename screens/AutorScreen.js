@@ -36,21 +36,21 @@ export default function AutorScreen(props) {
         <Card.Divider/>
         <ThemeProvider theme={theme}>
         <Button
-          title="Twitter: @Antoniotmll"
+          title="Twitter: @Twitter"
           type="clear"
           icon={<Icon name='twitter' type='font-awesome-5' containerStyle={{marginRight:50}} color='gray'/>}
           buttonStyle={{ justifyContent: "flex-start"}}
-          onPress={() => Linking.openURL('https://twitter.com/Antoniotmll')}
+          onPress={() => Linking.openURL('https://twitter.com')}
         />
         </ThemeProvider>
         <Card.Divider/>
         <ThemeProvider theme={theme}>
         <Button
-          title="Teléfono: 664862821"
+          title="Teléfono: 666666666"
           type="clear"
           icon={<Icon name='phone' type='font-awesome' containerStyle={{marginRight:50}} color='gray'/>}
           buttonStyle={{ justifyContent: "flex-start"}}
-          onPress={() => Linking.openURL('tel:{664862821}')}
+          onPress={() => Linking.openURL('tel:{666666666}')}
         />
         </ThemeProvider>
       </Card>
